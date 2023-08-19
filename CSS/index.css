@@ -1,0 +1,81 @@
+h1,h2,h3,p,span,ul{
+    list-style-type: none;
+
+}
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+body{
+    background-color: aliceblue;
+    width: 100%;
+    height: 200vh;
+}
+.dreader{
+   background-color: rgba(255, 255, 255, 0.838);
+   box-shadow: 0px 0px 1px 1px gainsboro;
+   width: 70%;
+   height: auto;
+   margin-top: 15%;
+   margin-left: 15%;
+   border-radius: 10px;
+}
+.top-box{
+    padding: 10px;
+}
+
+.boxs img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+    transition: 0.6s;
+    
+
+}
+.boxs img:hover{
+    transform: scale(1.1);
+}
+.boxs p{
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+
+
+.new{
+    margin-top: 20px;
+    width: 100%;
+    height: 300vh;
+}
+.news{
+    margin-left: 15%;
+    background-color: wheat;
+    width: 40%;
+    height: auto;
+    padding-bottom: 20px;
+    
+}
+.boxx{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.boxx img{
+ 
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    margin: 0px;
+}
+.boxx span{
+    font-size: 17px;
+    color: #000;
+    font-style: 700;
+    margin-top: 15px;
+
+}
